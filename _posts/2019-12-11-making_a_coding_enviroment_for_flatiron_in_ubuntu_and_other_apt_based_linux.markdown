@@ -26,7 +26,7 @@ and
 Now we need to actually install Ruby and half of why this guide is in existance is this part because it can be such a pain.  IF at any point this guide doesn't work for you please visit the RVM site at https://rvm.io/rvm/install.  run:
 
 `$ gpg2 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB` then run
-`$ \curl -sSL https://get.rvm.io | bash -s stable` and finally run 
+`$ \curl -sSL https://get.rvm.io | bash -s stable` almost there `source ~/.rvm/scripts/rvm` and finally run 
 `$ rvm use 2.6.3`
 
 And now ruby is installed.  So what is left is a few required gems (atleast for flatiron and installing our IDE)

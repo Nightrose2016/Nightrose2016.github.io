@@ -33,6 +33,7 @@ And now ruby is installed.  So what is left is a few required gems (atleast for 
 
 install the following gems
 `gem install rails`
+
 `gem install bundler`
 
 Now all that is left is to set up learn first run `gem install learn-co` and now run `learn whoami`.  At this point it will ask you for an OAuth token to find this go to your profile on learn ans scroll all the way down.  copy that and past it in the terminal and press enter.

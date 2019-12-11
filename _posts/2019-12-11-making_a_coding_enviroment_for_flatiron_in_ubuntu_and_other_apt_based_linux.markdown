@@ -12,9 +12,9 @@ First step is to prep your system.  Run the following command in your terminal.
 
 ` $ sudo apt-get update `
 
-The next part is to install Gnupg2.  First check if its installed by running this command: `gnupg --version`.  If it isn't installed run: `$ sudo apt-get install gnupg2 `
+The next part is to install Gnupg2.  First check if its installed by running this command: `$ gnupg --version`.  If it isn't installed run: `$ sudo apt-get install gnupg2 `
 
-And now the same with Curl first run :`curl --version` to see if its installed and then run if it isn't: 
+And now the same with Curl first run :`$ curl --version` to see if its installed and then run if it isn't: 
 `$ sudo apt-get install curl`
 
 I recommend installing the following things before getting to ruby as (at the time of writing this they will be required/helpful in later labs (depending on when you are doing all this) 
@@ -26,8 +26,8 @@ and
 Now we need to actually install Ruby and half of why this guide is in existance is this part because it can be such a pain.  IF at any point this guide doesn't work for you please visit the RVM site at https://rvm.io/rvm/install.  run:
 
 `$ gpg2 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB` then run
-`$ \curl -sSL https://get.rvm.io | bash -s stable` almost there `source ~/.rvm/scripts/rvm` and finally run 
-`$ rvm use 2.6.3`
+`$ \curl -sSL https://get.rvm.io | bash -s stable` almost there `$ source ~/.rvm/scripts/rvm` and finally run 
+`$ rvm install 2.6.1` to set 2.6.1 as default  enter `$ rvm use 2.6.1 --default`
 
 And now ruby is installed.  So what is left is a few required gems (atleast for flatiron and installing our IDE) and to instal and set up Git
 

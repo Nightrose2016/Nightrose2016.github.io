@@ -29,7 +29,7 @@ Now we need to actually install Ruby and half of why this guide is in existance 
 `$ \curl -sSL https://get.rvm.io | bash -s stable` almost there `source ~/.rvm/scripts/rvm` and finally run 
 `$ rvm use 2.6.3`
 
-And now ruby is installed.  So what is left is a few required gems (atleast for flatiron and installing our IDE)
+And now ruby is installed.  So what is left is a few required gems (atleast for flatiron and installing our IDE) and to instal and set up Git
 
 install the following gems
 `gem install rails` and `gem install bundler`
@@ -37,6 +37,8 @@ install the following gems
 Now all that is left is to set up learn first run `gem install learn-co` and now run `learn whoami`.  At this point it will ask you for an OAuth token to find this go to your profile on learn ans scroll all the way down.  copy that and past it in the terminal and press enter.
 
 Now that that is done we have to get our system to talk to github.  We have to generate a SSH key. run the following command editing your email in  `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"` it will ask you where to save it and I recommend just leaving it defualt.  you will thn be asked about a passphrase this is optional and can be skipped by just hitting enter. Now it is created all you have to do is open the id_rsa.pub file.  For this open files and enable "show hidden files" and navigate into `home/.ssh/` and open the id_rsa.pub in a text editor.  copy the contents and go to your github page.  Navigate to your setting and "SSH and GPG keys".  Now click add "New SSH key" and paste the contents in the key area and give it a name so you know what it is.
+
+Now for some more terminal fun.  We need to install git start by running '$ sudo apt install git` and then change the following commands to your info `git config --global user.name "your_name"` and `git config --global user.email "your_email@example.com"`
 
 From here download and use whatever IDE you wish but if you don't have one selected I highly recommend Visual Studio Code.  it is a good all round IDE and can due every coding language out there. 
 

@@ -12,7 +12,7 @@ First step is to prep your system.  Run the following command in your terminal.
 
 ` $ sudo apt-get update `
 
-The next part is to install Gnupg2.  First check if its installed by running this command: `gnupg --version`.  If it isn't installed run: ` $ sudo apt-get install gnupg2 `
+The next part is to install Gnupg2.  First check if its installed by running this command: `gnupg --version`.  If it isn't installed run: `$ sudo apt-get install gnupg2 `
 
 And now the same with Curl first run :`curl --version` to see if its installed and then run if it isn't: 
 `$ sudo apt-get install curl`

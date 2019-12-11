@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Making a coding enviroment for flatiron in Ubuntu and other apt based linux"
-date:       2019-12-11 06:59:22 +0000
+date:       2019-12-11 01:59:23 -0500
 permalink:  making_a_coding_enviroment_for_flatiron_in_ubuntu_and_other_apt_based_linux
 ---
 

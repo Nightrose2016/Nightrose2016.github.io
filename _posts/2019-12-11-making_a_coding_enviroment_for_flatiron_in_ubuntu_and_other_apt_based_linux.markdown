@@ -8,9 +8,7 @@ permalink:  making_a_coding_enviroment_for_flatiron_in_ubuntu_and_other_apt_base
 
 Recently I was trying to find a coding set up guide for linux. I ended up asking in the slack channel and got only 1 result an pretty out of date result. But at least it got me halfway and I was able to google my way through the rest.  But I didn't want to leave other linux users in the same boat I was so here is a guide on setting up your coding enviroment in Ubuntu and other apt based linux systems.
 
-First step is to prep your system.  Run the following command in your terminal.
-
-` $ sudo apt-get update `
+First step is to prep your system.  Run the following command in your terminal. ` $ sudo apt-get update `.  After that is done go into your teminal preferences and ensure that under profiles/Command that "run command as a login shell" is checked.
 
 The next part is to install Gnupg2.  First check if its installed by running this command: `$ gnupg --version`.  If it isn't installed run: `$ sudo apt-get install gnupg2 `
 
